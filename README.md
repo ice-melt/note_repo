@@ -14,7 +14,7 @@ Crash-->[*]
 ```
 
 ## 流程
-```
+```mermaid
 graph LR
 [file type]-->{norm}-->(df_shiny)
 [file type]-->{raw}-->(df_raw)
