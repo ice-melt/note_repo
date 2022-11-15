@@ -12,3 +12,12 @@ Moving-->Still
 Moving-->Crash
 Crash-->[*]
 ```
+
+## 流程
+```
+graph LR
+[file type]-->{norm}-->(df_shiny)
+[file type]-->{raw}-->(df_raw)
+(df_raw)--[NORM]--> (df_raw_shiny)
+
+```
